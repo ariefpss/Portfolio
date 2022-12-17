@@ -1,4 +1,5 @@
 bin/
 node_modules/
 public/scss/
+public/bootstrap/
 package-lock.json

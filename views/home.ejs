@@ -7,26 +7,7 @@
   <body>
     
     <!--* Header -->
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container">
-        <a href="#" class="navbar-brand text-primary">
-          RifDev
-        </a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuHeader" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="menuHeader">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="#" class="nav-link active">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Portfolio</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <%- include('./partials/header'); %>
     
     <!--* Content -->
     <div class="container mt-4">
@@ -110,69 +91,7 @@
     </div>
 
     <!--*Footer  -->
-    <footer class="bg-light py-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-4 col-xl-3">
-            <div class="d-flex align-items-center mb-2">
-              <div class="me-2"><img class="img-fluid" src="/images/footer-code.png" alt="Footer Code"></div>
-              <h5 class="mb-0">Code</h5>
-            </div>
-            <ul class="list-unstyled">
-              <li class="d-flex align-items-center mb-1">
-                <img class="img-fluid me-1" src="/images/mdi_github.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">Github</h6></a>
-              </li>
-              <li class="d-flex align-items-center mb-1">
-                <img class="img-fluid me-1" src="/images/mdi_codepen.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">CodePen</h6></a>
-              </li>
-              <li class="d-flex align-items-center">
-                <img class="img-fluid me-1" src="/images/mdi_stack-overflow.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">Stack Overflow</h6></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-4 col-xl-3">
-            <div class="d-flex align-items-center mb-2">
-              <div class="me-2"><img class="img-fluid" src="/images/footer-design.png" alt="Footer Code"></div>
-              <h5 class="mb-0">Code</h5>
-            </div>
-            <ul class="list-unstyled">
-              <li class="d-flex align-items-center mb-1">
-                <img class="img-fluid me-1" src="/images/dribbble-logo.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">Dribbble</h6></a>
-              </li>
-              <li class="d-flex align-items-center mb-1">
-                <img class="img-fluid me-1" src="/images/shutterstock.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">Shutter Stock</h6></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 col-md-4 col-xl-3">
-            <div class="d-flex align-items-center mb-2">
-              <div class="me-2"><img class="img-fluid" src="/images/footer-media.png" alt="Footer Code"></div>
-              <h5 class="mb-0">Social Media</h5>
-            </div>
-            <ul class="list-unstyled">
-              <li class="d-flex align-items-center mb-1">
-                <img class="img-fluid me-1" src="/images/instagram.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">Instagram</h6></a>
-              </li>
-              <li class="d-flex align-items-center mb-1">
-                <img class="img-fluid me-1" src="/images/outline-facebook.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">Facebook</h6></a>
-              </li>
-              <li class="d-flex align-items-center">
-                <img class="img-fluid me-1" src="/images/linkedin.png" alt="">
-                <a class="text-decoration-none text-dark" href=""><h6 class="mb-0">LinkedIn</h6></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <p class="text-center text-primary mb-0">RiefDev©2022.</p>
-      </div>
-    </footer>
+    <%- include('./partials/footer'); %>
 
     <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
